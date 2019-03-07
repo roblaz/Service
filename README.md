@@ -1,0 +1,4 @@
+# Service
+Service
+Exercise 1:
+Create a local service, that the application can bind to and communicate with. The layout should contain a TextView and three Button conponents (one shows date, second shows time and third will connect to service). After the program has started the text in TextView shows Disconnected, clicking on the first two buttons will result in nothing because the program isn't connected to a service yet. When clicking on the Connect button the text should change to Connected as the program should be bound to the service, then clicking on the top two buttons the text will display the current date and time repectively. These values are determined by the program by calling a service method. The service is what will read the clock. (NB. remember you need to change the manifest as well).
